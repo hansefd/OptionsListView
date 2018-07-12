@@ -1,8 +1,8 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
 
 namespace Options.Core
 {
-    public class Options : ObservableCollection<Option>
+    public class Options : List<Option>
     {
         public bool MultipleSelection { get; }
 

@@ -5,11 +5,11 @@ namespace Options.Playground.Core
 {
     public class MainViewModel
     {
-        public List<GroupOptions> Options { get; set; }
+        public List<GroupedOptions> Options { get; set; }
 
         public MainViewModel()
         {
-            Options = new List<GroupOptions> {new GroupOptions("Group 1") {new Option("Option 1")}};
+            Options = new List<GroupedOptions> {new GroupedOptions("Group 1") {new Option("Option 1")}};
         }
     }
 }
